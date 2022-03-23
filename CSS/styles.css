@@ -1,5 +1,5 @@
 body{
-  background-color: #F2DDC1;
+  background-color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -48,7 +48,8 @@ background-color: grey;
 /* About us */
 #title{
   padding: 7% 2% 5% 2% ;
-  background-color: #F2DDC1 ;
+  margin-bottom: 5%;
+  background-color: #FFFFFF ;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -60,15 +61,15 @@ background-color: grey;
     background-color: #85C88A;
     align-items: center;
     text-align: center  ;
-    height: 25rem;
+    height: 30rem;
   }
   
 #mycarousel{
-   background-color: #F2DDC1;
+   background-color: #FFFFFF;
    
  } 
 .carousel-item{
-  padding: 5% 10%;
+  padding: 8% 10%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -81,8 +82,53 @@ background-color: grey;
 
 
 
+/* CONTACT */
 
+#contact{
+  margin: 2% 25%;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+  align-items: center;
+  outline-style: double;
+  outline-width: 10px;
+  outline-color: #85C88A;
+  border-radius: 20px;
+}
 
+.form-control{
+  margin: 20px;
+}
+.top{
+  margin-top: 4%;
+}
+#cont{
+  
+
+  text-align: center;
+}
+.btnsend {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  width: 173px;
+  font-size: 45px;
+  font-weight: 100;
+  padding: 40px;
+  background-color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btnsend:hover {
+  border: solid #FFFFFF 1px;
+  text-decoration: none;
+}
 
 
 
@@ -90,7 +136,8 @@ background-color: grey;
 #footer{
     text-align: center;
     padding: 10px;
-    background-color: #F2DDC1;
+    background-color: #85C88A ;
+
 }
 
 .foot{
