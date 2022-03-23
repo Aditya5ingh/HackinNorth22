@@ -53,7 +53,58 @@ background-color: grey;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* login */
 
+#Log{
+  border-style: double;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: #85C88A;
+  margin: 0 5% 2% 5%;
+  text-align: center;
+}
+.cl1,.cl2{
+    padding-left: 40px;
+}
+.cl1{
+  border-right-style: double;
+  border-right-width: 5px;
+  border-right-color: #85C88A;
+}
+
+.btnlog {
+  margin: 2% auto 5%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 59px;
+  line-height: 59px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 281px;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #85C88A;
+  -webkit-box-shadow: 11px 11px 4px 8px #000000;
+  -moz-box-shadow: 11px 11px 4px 8px #000000;
+  box-shadow: 11px 11px 4px 8px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btnlog:hover {
+  background: #00C130;
+  border: solid #FFFFFF 0;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  text-decoration: none;
+}
 
 
 /* Feedback */
